@@ -16,7 +16,7 @@ A {{domxref("NodeList")}} containing all of the label elements associated with t
 
 ## Examples
 
-The following example shows a custom checkbox component with a {{HTMLElement("label")}} element linked to it.
+The following example shows a custom checkbox component with a {{HTMLElement("label")}} element linked to it. The label association is exposed to accessibility APIs, but the spoken announcement from screen readers can vary by browser and assistive technology. In some cases, you may need additional labeling or focus management logic to ensure the label is announced as expected.
 Printing the value of `labels` to the console returns a {{domxref("NodeList")}} with one entry, representing this label.
 
 ```html
