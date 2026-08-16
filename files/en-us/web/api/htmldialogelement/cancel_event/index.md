@@ -44,7 +44,7 @@ The following example shows a button that, when clicked, opens a {{htmlelement("
 You can trigger the `cancel` event by either clicking the _Request Close_ button to close the dialog (via the {{domxref("HTMLDialogElement.requestClose()", "requestClose()")}} method) or by pressing the <kbd>Esc</kbd> key.
 
 Note that the `cancel` event handler logs the event and then returns, allowing the dialog to close (which in turn causes the `close` event to be emitted).
-You can uncomment the line containing `event.preventDefault()` to cancel the event.
+You can uncomment the line containing `event.preventDefault()` to cancel the event, although repeated <kbd>Escape</kbd> presses may still close the dialog in some browsers.
 
 #### HTML
 
