@@ -10,6 +10,8 @@ browser-compat: api.AbortSignal.any_static
 
 The **`AbortSignal.any()`** static method takes an iterable of abort signals and returns an {{domxref("AbortSignal")}}. The returned abort signal is aborted when any of the input iterable abort signals are aborted. The {{domxref("AbortSignal.reason", "abort reason","","true")}} will be set to the reason of the first signal that is aborted. If any of the given abort signals are already aborted then so will be the returned {{domxref("AbortSignal")}}.
 
+There is no way to unsubscribe the returned signal from the input signals. If you create combined signals repeatedly in a long-lived loop, the input signals can keep their listeners until one of them aborts. Prefer reusing signals where possible, or use an {{domxref("AbortController")}} that you can abort directly.
+
 ## Syntax
 
 ```js-nolint
