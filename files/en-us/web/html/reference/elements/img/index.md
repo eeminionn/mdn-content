@@ -45,17 +45,13 @@ The HTML standard doesn't list what image formats to support, so {{glossary("use
 
 The image file formats that are most commonly used on the web are:
 
-- [APNG (Animated Portable Network Graphics)](/en-US/docs/Web/Media/Guides/Formats/Image_types#apng_animated_portable_network_graphics) — Good choice for lossless animation sequences (GIF is less performant)
-- [AVIF (AV1 Image File Format)](/en-US/docs/Web/Media/Guides/Formats/Image_types#avif_image) — Good choice for both images and animated images due to high performance.
-- [GIF (Graphics Interchange Format)](/en-US/docs/Web/Media/Guides/Formats/Image_types#gif_graphics_interchange_format) — Good choice for _simple_ images and animations.
-- [JPEG (Joint Photographic Expert Group image)](/en-US/docs/Web/Media/Guides/Formats/Image_types#jpeg_joint_photographic_experts_group_image) — Good choice for lossy compression of still images (currently the most popular).
-- [PNG (Portable Network Graphics)](/en-US/docs/Web/Media/Guides/Formats/Image_types#png_portable_network_graphics) — Good choice for lossless compression of still images (slightly better quality than JPEG).
-- [SVG (Scalable Vector Graphics)](/en-US/docs/Web/Media/Guides/Formats/Image_types#svg_scalable_vector_graphics) — Vector image format. Use for images that must be drawn accurately at different sizes.
-- [WebP (Web Picture format)](/en-US/docs/Web/Media/Guides/Formats/Image_types#webp_image) — Excellent choice for both images and animated images
-
-Formats like [WebP](/en-US/docs/Web/Media/Guides/Formats/Image_types#webp_image) and [AVIF](/en-US/docs/Web/Media/Guides/Formats/Image_types#avif_image) are recommended as they perform much better than PNG, JPEG, GIF for both still and animated images.
-
-SVG remains the recommended format for images that must be drawn accurately at different sizes.
+- [APNG (Animated Portable Network Graphics)](/en-US/docs/Web/Media/Guides/Formats/Image_types#apng_animated_portable_network_graphics) — Lossless animated image format.
+- [AVIF](/en-US/docs/Web/Media/Guides/Formats/Image_types#avif_image) — Raster image format that supports both still images and animations with efficient compression.
+- [GIF (Graphics Interchange Format)](/en-US/docs/Web/Media/Guides/Formats/Image_types#gif_graphics_interchange_format) — Widely supported format for simple images and animations.
+- [JPEG (Joint Photographic Experts Group image)](/en-US/docs/Web/Media/Guides/Formats/Image_types#jpeg_joint_photographic_experts_group_image) — Lossy raster image format commonly used for photographs.
+- [PNG (Portable Network Graphics)](/en-US/docs/Web/Media/Guides/Formats/Image_types#png_portable_network_graphics) — Lossless raster image format commonly used for icons, screenshots, and other images that need exact reproduction.
+- [SVG (Scalable Vector Graphics)](/en-US/docs/Web/Media/Guides/Formats/Image_types#svg_scalable_vector_graphics) — Vector image format that scales cleanly at different sizes.
+- [WebP](/en-US/docs/Web/Media/Guides/Formats/Image_types#webp_image) — Raster image format that supports both lossy and lossless compression for still images and animations.
 
 ## Image loading errors
 
