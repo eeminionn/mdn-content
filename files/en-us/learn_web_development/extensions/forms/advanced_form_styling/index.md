@@ -595,7 +595,7 @@ However, a custom solution is the only way to get anything significantly differe
 
 Inputs of type file are generally OK — as you saw in our example, it is fairly easy to create something that fits in OK with the rest of the page — the output line that is part of the control will inherit the parent font if you tell the input to do so, and you can style the custom list of file names and sizes in any way you want; we created it after all.
 
-The only problem with file pickers is that the button you press to open the file picker is completely unstylable — it can't be sized or colored, and it won't even accept a different font.
+The only problem with file pickers is that the button you press to open the file picker is mostly unstylable — it can't be sized or colored, and it won't even accept a different font by default. However, you can style it with the [`::file-selector-button`](/en-US/docs/Web/CSS/::file-selector-button) pseudo-element.
 
 One way around this is to take advantage of the fact that if you have a label associated with a form control, clicking the label will activate the control. So you could hide the actual form input using something like this:
 
