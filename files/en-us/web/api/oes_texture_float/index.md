@@ -13,7 +13,7 @@ The **`OES_texture_float`** extension is part of the [WebGL API](/en-US/docs/Web
 WebGL extensions are available using the {{domxref("WebGLRenderingContext.getExtension()")}} method. For more information, see also [Using Extensions](/en-US/docs/Web/API/WebGL_API/Using_Extensions) in the [WebGL tutorial](/en-US/docs/Web/API/WebGL_API/Tutorial).
 
 > [!NOTE]
-> This extension is only available to {{domxref("WebGLRenderingContext", "WebGL1", "", 1)}} contexts. In {{domxref("WebGL2RenderingContext", "WebGL2", "", 1)}}, the functionality of this extension is available on the WebGL2 context by default.
+> This extension is only available to {{domxref("WebGLRenderingContext", "WebGL1", "", 1)}} contexts. In {{domxref("WebGL2RenderingContext", "WebGL2", "", 1)}}, use the appropriate WebGL 2 texture formats and color-buffer extensions such as {{domxref("EXT_color_buffer_float")}} or {{domxref("EXT_color_buffer_half_float")}} instead.
 
 ## Extended methods
 

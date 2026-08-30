@@ -68,6 +68,8 @@ texImage2D(target, level, internalformat, width, height, border, format, type, o
 
     In WebGL 2, when specifying the source as `srcData` or `offset`, the following combinations are additionally available (these internal formats are _sized_ because the internal pixel layout is exactly specified; we omit the input layout here because it works similarly to the one above):
 
+    Some of the listed formats become color-renderable only when the appropriate float color-buffer extension is enabled, such as {{domxref("EXT_color_buffer_float")}} or {{domxref("EXT_color_buffer_half_float")}}.
+
     | `internalformat` | `format`       | `type`                                                                   | Internal pixel layout                   | Color renderable | Texture filterable |
     | ---------------- | -------------- | ------------------------------------------------------------------------ | --------------------------------------- | ---------------- | ------------------ |
     | `R8`             | `RED`          | `UNSIGNED_BYTE`                                                          | (R) = (8)                               | Y                | Y                  |
